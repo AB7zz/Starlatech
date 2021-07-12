@@ -1,0 +1,205 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap'); */
+
+
+.floating1 {  
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.floatingrev {  
+    animation-name: floatingrev;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.scale {
+    transition: 1s;
+  }
+  
+  .scale:hover {
+    @media screen and (max-width: 1000px){
+    transform: scale(1.10);
+    cursor: pointer;}
+  }
+  
+@keyframes floating1 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+@keyframes floatingrev {
+    0% { transform: translate(0,  -0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0px); }    
+}
+.floating2 {  
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+  
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    70%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+.floating3 {  
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+  
+@keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    30%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.jk3 p {
+    display:inline-block;
+    background-image: linear-gradient(to right, white 50%, #FFA800 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.15em;
+    text-decoration: none;
+    transition: background-position 0.5s ease-out;
+    font-family: 'Encode Sans', sans-serif;
+}
+@media screen and (max-width: 768px){
+    .jk3 p{
+        font-size: 15px;
+    }
+}
+.jk3 p:hover{
+    background-position: -99.99% 0;
+}
+
+.ServicesIcon{
+    width: 250px;
+    height: 179px;
+    margin-bottom: 10px;
+    z-index: 2;
+
+}
+@media screen and (max-width: 1110px){
+   .ServicesIcon{
+       width: 200px;
+       height: 143.2px;
+   }
+}
+@media screen and (max-width: 610px){
+   .ServicesIcon{
+       width: 180px;
+       height: 116.64px;
+   }
+}
+@media screen and (max-width: 440px){
+   .ServicesIcon{
+       width: 160px;
+       height: 106.68px;
+   }
+}
+@media screen and (max-width: 416px){
+   .ServicesIcon{
+       width: 156px;
+       height: 115.44px;
+   }
+}
+
+@media screen and (max-width: 400px){
+   .ServicesIcon{
+       width: 175px;
+       height: 113.4px;
+   }
+}
+
+.banner{
+    background: #ffa800;
+    text-transform: uppercase;
+    position: absolute !important;
+    min-height: 40px;
+    line-height: 20px;
+    text-align: center;
+    width: 335px;
+    font-weight: 700;
+    color: #000;
+    z-index: 4;
+    bottom: 280px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 30px 0 rgb(22 14 51 / 10%);
+border: 0;
+}
+@media screen and (max-width: 1300px){
+    .banner{
+        width: 100%;
+        bottom: 270px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    .banner{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .banner{
+        width: 100%;
+        bottom: 259px;
+    }
+
+}
+
+@media screen and (max-width: 610px){
+    .banner{
+        width: 100%;
+        bottom:230px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 490px){
+    .banner{
+        width: 100%;
+        bottom: 210px;
+        font-size:10px;
+    }
+}
+@media screen and (max-width: 460px){
+    .banner{
+        width: 100%;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 445px){
+    .banner{
+        width: 100%;
+        bottom: 200px;
+    }
+}
+@media screen and (max-width: 426px){
+    .banner{
+        width: 100%;
+        bottom: 190px;
+    }
+}
+@media screen and (max-width: 416px){
+    .banner{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .banner{
+        width: 100%;
+        font-size: 12px;
+    }
+}

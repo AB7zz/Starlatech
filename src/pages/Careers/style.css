@@ -1,0 +1,88 @@
+#careers{
+    margin-top: 100px;
+}
+select{ 
+    height: 60px;
+    padding-left: 30px;
+    border-width: 2px !important;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: lightgrey;
+    transition: 0.3s;
+}
+select:focus{
+    transform: scale(1.025);
+    transition: 0.3s;
+    outline: none;
+    border-color: #FFA800;
+}   
+select option{
+    margin: 30px !important;
+    height: 60px !important;
+}
+.filebutton {
+    cursor: pointer;
+    background: #ffa800;
+    outline: none;
+    color: white;
+    width: 231px;
+    border: none;
+    padding: 15px 15px;
+    transition: 0.3s;
+}
+.filebutton:hover{
+    transition: 0.3s;
+    transform: scale(1.015);
+}
+
+#upload-position {
+    opacity: 1;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 373px;
+    z-index: -1;
+ }
+
+ @media screen and (max-width: 768px){
+    .filebutton{
+        width: 150px;
+    }
+    #upload-position{
+        margin-left: 49px;
+        font-size: 17px;
+        padding-right: 10px;
+    }
+}
+.particles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+}
+.particles2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px){
+  .particles{
+    display: none;
+  }
+  .particles2{
+    display: none;
+  }
+}

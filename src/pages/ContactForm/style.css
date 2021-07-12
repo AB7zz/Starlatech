@@ -1,0 +1,18 @@
+.particles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px){
+  .particles{
+    display: none;
+  }
+}
+.swal-button{
+  background: #FFA800 !important;
+}

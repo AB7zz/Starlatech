@@ -1,0 +1,83 @@
+#bookapp{
+    background: transparent url('https://res.cloudinary.com/starla/image/upload/f_auto/v1625319866/left_sgn1dc.png') no-repeat;
+    background-position: left -30px bottom -0px;
+    background-size: 200% auto;
+    padding-bottom: 90px;
+}
+@media (max-width: 768px){
+    #bookapp{
+        right: 90%;
+    }
+}
+.hide{
+    margin-bottom: 30px;
+    padding-left: 0px;
+    margin-left: 502px;
+    width: 97px;
+    height: 100px;
+    bottom: 521px !important;
+    position: absolute !important;
+    z-index: 10000000000;
+    background-color: #fff;
+}
+.class{
+    width: 632px !important;
+    height: 400px !important;
+    position: absolute !important;
+    bottom: 250px !important;
+    border: none;
+}
+@media screen and (max-width: 768px){
+    .class{
+        width: 320px !important;
+        height: 400px !important;
+    }
+    .hide{
+        margin-bottom: 36px;
+        padding-left: 0px;
+        margin-left: 194px;
+        width: 126px;
+        height: 95px;
+    }
+    .container{
+        height: 400px;
+        width: 90%;
+    }
+}
+
+.image1{
+    height: 500px;
+    width: 700px;
+}
+@media screen and (max-width: 1024px){
+    .image1{
+        height: 430px;
+        width: 602px;
+    }
+}
+@media screen and (max-width: 768px){
+    .image1{
+        height: 370px;
+        width: 518px;
+    }
+}
+@media screen and (max-width: 435px){
+    .image1{
+        height: 350px;
+        width: 460px;
+
+    }
+}
+@media screen and (max-width: 400px){
+    .image1{
+        height: 300px;
+        width: 410px;
+
+    }
+}
+@media screen and (max-width: 335px){
+    .image1{
+        height: 270px;
+        width: 350px;
+    }
+}

@@ -1,0 +1,373 @@
+.YoutubeLogo{
+    height: 180px;
+    width: 180px;
+}
+.GitLogo{
+    height: 130px;
+    width: 130px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .GitLogo{
+        height: 70px;
+        width: 70px;
+    }
+    .YoutubeLogo{
+        height: 90px;
+        width: 90px;
+    }
+}
+#triangle {
+    position: absolute;
+    opacity: 0.5;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid rgb(255, 207, 48);
+    animation-name: float-triangle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes float-triangle {
+    from {
+        transform: translate(15%, 255%) rotate(25deg); /* Standard syntax */
+        -ms-transform:translate(15%, 255%) rotate(25deg); /* IE 9 */
+    }
+    to {
+        -ms-transform: translate(15%, -125%) rotate(50deg); /* IE 9 */
+        transform: translate(15%, -125%) rotate(50deg); /* Standard syntax */
+    }
+}
+#circle {
+    position: absolute;
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 207, 48);
+    border-radius: 50%;
+    animation-name: float-circle;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+@keyframes float-circle {
+    from {
+        transform: translate(550%, 430%); /* Standard syntax */
+        -ms-transform: translate(1450%, 430%); /* IE 9 */
+    }
+    to {
+        transform: translate(550%, -115%); /* Standard syntax */
+        -ms-transform: translate(1450%, -115%); /* IE 9 */
+    }
+}
+#square {
+    position: absolute;
+    opacity: 0.5;
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 207, 48);
+    animation-name: float-square;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes float-square {
+    from {
+        transform: translate(1450%, 600%) rotate(50deg); /* Standard syntax */
+        -ms-transform: translate(1450%, 600%) rotate(50deg); /* IE 9 */
+    } 
+    to {
+        transform: translate(1450%, -125%) rotate(25deg); /* Standard syntax */
+        -ms-transform: translate(1450%, -125%) rotate(25deg); /* IE 9 */
+    }
+}
+#hexagon {
+    position: absolute;
+    opacity: 0.5;
+    width: 100px;
+    height: 57.735px;
+    background: rgb(255, 207, 48);
+    animation-name: float-hexagon;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+  }
+  #hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid rgb(255, 207, 48);
+  }
+  #hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid rgb(255, 207, 48);
+}
+@keyframes float-hexagon {
+    from {
+        transform: translate(1050%, -150%) rotate(50deg);
+        -ms-transform: translate(1350%, -150%) rotate(50deg);
+    }
+    to {
+        transform: translate(-120%, 530%) rotate(25deg); 
+        -ms-transform: translate(-120%, 530%) rotate(25deg);
+    }
+}
+#moon {
+    position: absolute;
+    width: 80px;
+    opacity: 0.5;
+    /* height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(255, 207, 48); */
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 207, 48);
+    animation-name: float-moon;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes float-moon {
+    from {
+        transform: translate(1750%, 500%) rotate(130deg);
+        -ms-transform: translate(1750%, 500%) rotate(130deg);; 
+    }
+    to {
+        transform: translate(-35%, 200%) rotate(130deg);
+        -ms-transform: translate(1700%, 200%) rotate(130deg);; 
+    }
+}
+@media screen and (max-width: 1304px){
+    #square{
+        width: 70px;
+        height: 70px;
+    }
+    #hexagon {
+        position: absolute;
+        opacity: 0.5;
+        width: 100px;
+        height: 57.735px;
+        background: rgb(255, 207, 48);
+        animation-name: float-hexagon;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+      }
+      #hexagon::before {
+        content: "";
+        position: absolute;
+        top: -28.8675px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 28.8675px solid rgb(255, 207, 48);
+      }
+      #hexagon::after {
+        content: "";
+        position: absolute;
+        bottom: -28.8675px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 28.8675px solid rgb(255, 207, 48);
+    }
+    #moon {
+        position: absolute;
+        width: 50px;
+        opacity: 0.5;
+        /* height: 50px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 0 0 rgb(255, 207, 48); */
+        width: 70px;
+        height: 70px;
+        background: rgb(255, 207, 48);
+        animation-name: float-moon;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes float-hexagon {
+        from {
+            transform: translate(600%, -150%) rotate(50deg);
+            -ms-transform: translate(600%, -150%) rotate(50deg);
+        }
+        to {
+            transform: translate(-110%, 730%) rotate(25deg);
+            -ms-transform: translate(-110%, 730%) rotate(25deg); 
+        }
+    }
+    @keyframes float-square {
+        from {
+            transform: translate(810%, 720%) rotate(50deg); /* Standard syntax */
+            -ms-transform: translate(810%, 720%) rotate(50deg); /* IE 9 */
+        } 
+        to {
+            transform: translate(810%, -145%) rotate(25deg); /* Standard syntax */
+            -ms-transform: translate(810%, -145%) rotate(25deg); /* IE 9 */
+        }
+    }
+    @keyframes float-moon {
+        from {
+            transform: translate(600%, 500%) rotate(130deg);
+            -ms-transform: translate(600%, 500%) rotate(130deg);; 
+        }
+        to {
+            transform: translate(-35%, 50%) rotate(130deg);
+            -ms-transform: translate(1700%, 50%) rotate(130deg);; 
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    #triangle{
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 60px solid rgb(255, 207, 48);
+    }
+    #circle{
+        width: 50px;
+        height: 50px;
+    }
+    #square{
+        width: 35px;
+        height: 35px;
+    }
+    #hexagon {
+        position: absolute;
+        width: 50px;
+        height: 28.8675px;
+        background: rgb(255, 207, 48);
+        animation-name: float-hexagon;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+      }
+      #hexagon::before {
+        content: "";
+        position: absolute;
+        top: -14.42275px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 14.43375px solid rgb(255, 207, 48);
+      }
+      #hexagon::after {
+        content: "";
+        position: absolute;
+        bottom: -14.42275px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 14.43375px solid rgb(255, 207, 48);
+    }
+    #moon {
+        position: absolute;
+        width: 50px;
+        opacity: 0.5;
+        /* height: 50px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 0 0 rgb(255, 207, 48); */
+        width: 35px;
+        height: 35px;
+        background: rgb(255, 207, 48);
+        animation-name: float-moon;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes float-hexagon {
+        from {
+            transform: translate(600%, -150%) rotate(50deg);; /* Standard syntax */
+            -ms-transform: translate(600%, -150%) rotate(50deg);; /* IE 9 */
+        }
+        to {
+            transform: translate(-110%, 730%) rotate(25deg);; /* Standard syntax */
+            -ms-transform: translate(-110%, 730%) rotate(25deg);; /* IE 9 */
+        }
+    }
+    @keyframes float-square {
+        from {
+            transform: translate(850%, 720%) rotate(50deg); /* Standard syntax */
+            -ms-transform: translate(850%, 720%) rotate(50deg); /* IE 9 */
+        } 
+        to {
+            transform: translate(850%, -145%) rotate(25deg); /* Standard syntax */
+            -ms-transform: translate(850%, -145%) rotate(25deg); /* IE 9 */
+        }
+    }
+    @keyframes float-triangle {
+        from {
+            transform: translate(15%, 410%) rotate(25deg); /* Standard syntax */
+            -ms-transform:translate(15%, 410%) rotate(25deg); /* IE 9 */
+        }
+        to {
+            -ms-transform: translate(15%, -125%) rotate(50deg); /* IE 9 */
+            transform: translate(15%, -125%) rotate(50deg); /* Standard syntax */
+        }
+    }
+    @keyframes float-circle {
+        from {
+            transform: translate(270%, 530%); /* Standard syntax */
+            -ms-transform: translate(270%, 530%); /* IE 9 */
+        }
+        to {
+            transform: translate(270%, -110%); /* Standard syntax */
+            -ms-transform: translate(270%, -110%); /* IE 9 */
+        }
+    }
+    @keyframes float-moon {
+        from {
+            transform: translate(600%, 500%) rotate(130deg);
+            -ms-transform: translate(600%, 500%) rotate(130deg);; 
+        }
+        to {
+            transform: translate(-35%, 50%) rotate(130deg);
+            -ms-transform: translate(1700%, 50%) rotate(130deg);; 
+        }
+    }
+}
+@media screen and (max-width: 332px){
+    @keyframes float-hexagon {
+        from {
+            transform: translate(400%, -150%) rotate(50deg);; /* Standard syntax */
+            -ms-transform: translate(400%, -150%) rotate(50deg);; /* IE 9 */
+        }
+        to {
+            transform: translate(-110%, 730%) rotate(25deg);; /* Standard syntax */
+            -ms-transform: translate(-110%, 730%) rotate(25deg);; /* IE 9 */
+        }
+    }
+    @keyframes float-square {
+        from {
+            transform: translate(550%, 720%) rotate(50deg); /* Standard syntax */
+            -ms-transform: translate(550%, 720%) rotate(50deg); /* IE 9 */
+        } 
+        to {
+            transform: translate(550%, -145%) rotate(25deg); /* Standard syntax */
+            -ms-transform: translate(550%, -145%) rotate(25deg); /* IE 9 */
+        }
+    }
+    @keyframes float-moon {
+        from {
+            transform: translate(420%, 500%) rotate(130deg);
+            -ms-transform: translate(420%, 500%) rotate(130deg);; 
+        }
+        to {
+            transform: translate(-35%, 50%) rotate(130deg);
+            -ms-transform: translate(1700%, 50%) rotate(130deg);; 
+        }
+    }
+}

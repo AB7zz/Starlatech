@@ -1,0 +1,29 @@
+#rcc-decline-button{
+    background: #b02a2a !important;
+    padding: 5px 35px !important;
+    transition: 0.6s;
+    margin-left: 0 !important;
+}
+#rcc-confirm-button{
+    padding: 5px 35px !important;
+    transition: 0.6s;
+    margin-left: 0 !important;
+}
+#rcc-confirm-button:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+#rcc-decline-button:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+@media screen and (max-width: 592px){
+    #rcc-confirm-buttin{
+        margin: auto;
+        justify-content: center;
+    }
+    #rcc-decline-button{
+        justify-content: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,252 @@
+.container{
+  z-index: 3;
+  position: relative;
+}
+#language{
+  background-color: #fff !important;
+}
+@media (max-width: 768px){
+  #bookapp{
+      right: 90%;
+  }
+}
+.dog1{
+  height:100px;
+  width:100px;
+}
+.dog2{
+  height:95px;
+  width:95px;
+}
+.dog3{
+  height:130px;
+  width:130px;
+}
+.dog4{
+  height:150px;
+  width:150px;
+}
+.dog5{
+  height:100px;
+  width:100px;
+}
+.dog6{
+  height:120px;
+  width:120px;
+}
+.dog7{
+  height:120px;
+  width:120px;
+}
+.dog8{
+  height:130px;
+  width:130px;
+}
+.dog9{
+  height:130px;
+  width:130px;
+}
+.container{
+  z-index: 3;
+  position: relative;
+}
+
+
+
+@media (max-width: 550px){
+  .dog1{
+    height:66px;
+    width: 66px;
+  }
+  .dog2{
+    height:66px;
+    width: 66px;
+  }
+  .dog3{
+    height:66px;
+    width: 66px;
+  }
+  .dog4{
+    height:66px;
+    width: 66px;
+  }
+  .dog5{
+    height:66px;
+    width: 66px;
+  }
+  .dog6{
+    height:66px;
+    width: 66px;
+  }
+  .dog7{
+    height:66px;
+    width: 66px;
+  }
+  .dog8{
+    height:66px;
+    width: 66px;
+  }
+  .dog9{
+    height:66px;
+    width: 66px;
+  }
+}
+  
+  @media (max-width: 600px){
+  .dog1{
+    height:70px;
+    width: 70px;
+  }
+  .dog2{
+    height:70px;
+    width: 70px;
+  }
+  .dog3{
+    height:70px;
+    width: 70px;
+  }
+  .dog4{
+    height:70px;
+    width: 70px;
+  }
+  .dog5{
+    height:70px;
+    width: 70px;
+  }
+  .dog6{
+    height:70px;
+    width: 70px;
+  }
+  .dog7{
+    height:70px;
+    width: 70px;
+  }
+  .dog8{
+    height:70px;
+    width: 70px;
+  }
+  .dog9{
+    height:70px;
+    width: 70px;
+  }
+}
+@media (max-width: 768px){
+  #bookapp{
+      right: 90%;
+  }
+}
+@media (max-width: 900px){
+  .dog1{
+    height:80px;
+    width: 80px;
+  }
+  .dog2{
+    height:80px;
+    width: 80px;
+  }
+  .dog3{
+    height:80px;
+    width: 80px;
+  }
+  .dog4{
+    height:80px;
+    width: 80px;
+  }
+  .dog5{
+    height:80px;
+    width: 80px;
+  }
+  .dog6{
+    height:80px;
+    width: 80px;
+  }
+  .dog7{
+    height:80px;
+    width: 80px;
+  }
+  .dog8{
+    height:80px;
+    width: 80px;
+  }
+  .dog9{
+    height:80px;
+    width: 80px;
+  }
+}
+@media (max-width: 1100px){
+  .dog1{
+    height:90px;
+    width: 90px;
+  }
+  .dog2{
+    height:90px;
+    width: 90px;
+  }
+  .dog3{
+    height:90px;
+    width: 90px;
+  }
+  .dog4{
+    height:90px;
+    width: 90px;
+  }
+  .dog5{
+    height:90px;
+    width: 90px;
+  }
+  .dog6{
+    height:90px;
+    width: 90px;
+  }
+  .dog7{
+    height:90px;
+    width: 90px;
+  }
+  .dog8{
+    height:90px;
+    width: 90px;
+  }
+  .dog9{
+    height:90px;
+    width: 90px;
+  }
+}
+
+@media (max-width: 480px){
+  .dog1{
+    height:60px;
+    width: 60px;
+  }
+  .dog2{
+    height:60px;
+    width: 60px;
+  }
+  .dog3{
+    height:60px;
+    width: 60px;
+  }
+  .dog4{
+    height:60px;
+    width: 60px;
+  }
+  .dog5{
+    height:60px;
+    width: 60px;
+  }
+  .dog6{
+    height:60px;
+    width: 60px;
+  }
+  .dog7{
+    height:60px;
+    width: 60px;
+  }
+  .dog8{
+    height:60px;
+    width: 60px;
+  }
+  .dog9{
+    height:60px;
+    width: 60px;
+  }
+}

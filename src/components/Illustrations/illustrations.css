@@ -1,0 +1,95 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme";
+.App{
+    width: 100%;
+    margin: 0rem auto;
+    height: 700px;
+    background: transparent url('https://res.cloudinary.com/starla/image/upload/f_auto/v1625319867/right_pvijje.png') no-repeat;
+    background-position: right -30px bottom -0px;
+    background-size: 200% auto;
+    padding-bottom: 90px;
+}
+@media screen and (max-width: 768px){
+    .App{
+        margin: 5rem auto;
+        height: 450px;
+    }
+}
+
+.slide{
+    transform: scale(1.0);
+    padding-left: 75px;
+    transition: transform 300ms;
+    opacity: 1;
+}
+@media screen and (max-width: 323px){
+    .slide{
+        padding-left: 0px;
+    }
+}
+
+.arrow{
+    background-color: #fff;
+    border-radius: 50%; 
+    position: absolute;
+    box-shadow: 0 15px 30px 0 rgb(22 14 51 / 7%);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    border: 0px solid;
+    z-index: 10;
+    transition: all 0.15s ease-in-out;
+}
+@media screen and (max-width: 768px){
+    .slide{
+        padding-left: 0px;
+    }
+    .arrow{
+        padding: 5px 5px;
+    }
+}
+
+.arrow svg{
+    color: #ffa800;
+    transition: color 300ms;
+}
+.next{
+    right: 3%;
+    top: 50%;
+}
+.prev{
+    left: 3%;
+    top: 50%;
+}
+
+.Img{
+    margin: auto;
+    height: 800px;
+    width: 800px;
+}
+
+@media screen and (max-width: 1300px){
+    .Img{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 915px){
+    .Img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 768px){
+    .Img{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 280px){
+    .Img{
+        height: 250px;
+        width: 250px;
+    }
+}
