@@ -29,6 +29,10 @@ export const ModernizeH1 = styled.h1`
     font-size: 53px;
     line-height: 60px;
     text-align: center;
+    @media screen and (max-width: 1200px){
+        font-size: 45px;
+        padding: 0px 20px 0px 20px;
+    }
     @media screen and (max-width: 768px){
         font-size: 30px;
         padding: 0px 20px 0px 20px;
@@ -53,7 +57,7 @@ export const StepsWrapper = styled.div`
     display: grid;
     grid-gap: 65px;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 140px 0px 140px;
     max-width: 100%;
     @media screen and (max-width: 1130px){
         padding: 0px 65px 0px 65px;

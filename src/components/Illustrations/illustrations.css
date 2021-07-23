@@ -3,7 +3,7 @@
 .App{
     width: 100%;
     margin: 0rem auto;
-    height: 700px;
+    height: 750px;
     background: transparent url('https://res.cloudinary.com/starla/image/upload/f_auto/v1625319867/right_pvijje.png') no-repeat;
     background-position: right -30px bottom -0px;
     background-size: 200% auto;
@@ -12,7 +12,7 @@
 @media screen and (max-width: 768px){
     .App{
         margin: 5rem auto;
-        height: 450px;
+        height: 600px;
     }
 }
 

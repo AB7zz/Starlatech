@@ -18,6 +18,16 @@
         width: 90px;
     }
 }
+@media screen and (max-width: 400px){
+    .GitLogo{
+        height: 60px;
+        width: 60px;
+    }
+    .YoutubeLogo{
+        height: 80px;
+        width: 80px;
+    }
+}
 #triangle {
     position: absolute;
     opacity: 0.5;

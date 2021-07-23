@@ -56,66 +56,16 @@ export const Heading = styled.h1`
 export const Para = styled.p`
     font-size: 18px;
     color: #736e84;
+    @media screen and (max-width: 1200px){
+        font-size: 16px;
+    }
     @media screen and (max-width: 768px){
         font-size: 16px;
     }
-    @media screen and (max-width: 330px){
+    @media screen and (max-width: 500px){
         font-size: 14px;
     }
+    @media screen and (max-width: 330px){
+        font-size: 11px;
+    }
 `
-// export const IllustrationsH1 = styled.h1`
-// @media screen and (min-width: 769px){
-//     font-size: 2.5rem;
-//     margin-top: 50px;
-//     font-family: 'Encode Sans', sans-serif;
-//     color: #000;
-//     text-decoration: none;
-//     display: inline-block;
-//     z-index: 2;
-//     position: relative;
-
-//     &:after {    
-//         background: none repeat scroll 0 0 transparent;
-//         bottom: 0;
-//         content: "";
-//         display: block;
-//         height: 2px;
-//         left: 50%;
-//         position: absolute;
-//         background: #FFA800;
-//         transition: width 0.3s ease 0s, left 0.3s ease 0s;
-//         width: 0%;
-//     }
-
-//     &:hover:after { 
-//         width: 100%; 
-//         left: 0; 
-//     }
-// }
-// @media screen and (max-width: 768px){
-//     font-size: 2.5rem;
-//     margin-top: 50px;
-//     font-family: 'Encode Sans', sans-serif;
-//     color: #000;
-//     text-decoration: none;
-//     display: inline-block;
-//     z-index: 2;
-//     position: relative;
-
-//     &:after {    
-//         background: none repeat scroll 0 0 transparent;
-//         bottom: 0;
-//         content: "";
-//         display: block;
-//         height: 2px;
-//         left: 0%;
-//         position: absolute;
-//         background: #FFA800;
-//         transition: width 0.3s ease 0s, left 0.3s ease 0s;
-//         width: 100%;
-//     }
-// }
-//     @media screen and (max-width: 480px){
-//         font-size: 2rem;
-//     }
-// `

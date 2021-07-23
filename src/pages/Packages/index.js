@@ -197,14 +197,14 @@ const App = () => {
             <ThirdFour>
                 <Div3></Div3>
                 <Div3>   
-                    <Btn href="../#bookapp">Get Offer</Btn>
+                    <Btn href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                 </Div3>
                 <div className='whitebox'></div>
                 <Div3Special>
-                <Btn colorblack={true} bggold={true} href="../#bookapp">Get Offer</Btn>
+                <Btn colorblack={true} bggold={true} href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                 </Div3Special>
                 <Div3>
-                <Btn href="../#bookapp">Get Offer</Btn>
+                <Btn href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                 </Div3>
             </ThirdFour>
             
@@ -299,7 +299,7 @@ const App = () => {
                     </SecondPart>
                     <hr class="solid"></hr>
                 <CardBtn>  
-                    <Btn href="../#bookapp">Get Offer</Btn>
+                    <Btn href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                </CardBtn>
             </Card>
             {/* MOBILE VERSION CARD 2 */}
@@ -373,7 +373,7 @@ const App = () => {
                     </SecondPart>
                     <hr class="solid"></hr>
                 <CardBtn>  
-                    <Btn colorblack={true} bggold={true} href="../#bookapp">Get Offer</Btn>
+                    <Btn colorblack={true} bggold={true} href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                </CardBtn>
             </Card>
             </CardContainer>
@@ -449,7 +449,7 @@ const App = () => {
                     </SecondPart>
                     <hr class="solid"></hr>
                 <CardBtn>  
-                    <Btn href="../#bookapp">Get Offer</Btn>
+                    <Btn href="https://outlook.office365.com/owa/calendar/Starlatech@GEMSELEARNING.onmicrosoft.com/bookings/">Get Offer</Btn>
                </CardBtn>
             </Card>
             </CardContainer2>

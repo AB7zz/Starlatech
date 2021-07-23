@@ -53,6 +53,12 @@ export const Para = styled.p`
     font-weight: bold;
     color: #fff;
     z-index: 999;
+    @media screen and (max-width: 630px){
+        font-size: 30px;
+    }
+    @media screen and (max-width: 500px){
+        font-size: 25px;
+    }
     @media screen and (max-width: 340px){
         font-size: 25px;
     }
