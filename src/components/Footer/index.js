@@ -36,7 +36,7 @@ const Footer = () => {
                             <FooterLinkTitle>About us</FooterLinkTitle>
                             <FooterLinkAnchor href="#modernize">How it works</FooterLinkAnchor>
                             <FooterLink to="/privacy">Privacy</FooterLink>
-                            <FooterLink to='/terms'>Terms and Services</FooterLink>
+                            <FooterLink to='/terms'>Terms and Conditions</FooterLink>
                             <FooterLink to='/careers'>Careers</FooterLink>
                          
                            
@@ -62,7 +62,7 @@ const Footer = () => {
                             <FooterLinkTitle>Stay Connected</FooterLinkTitle>
                             {/* <SubscribePara>Subscribe to our Email Mailing and receive latest news on the upcoming discount deals, sales, reminders, etc. Don't worry, we won't spam you because even we hate spams.</SubscribePara> */}
                             <SubscribeFormWrap onSubmit={sendEmail}>
-                                <SubscribeInput id='email' name="email" type="text" placeholder="Enter Email" />
+                                <SubscribeInput id='email' name="email" type="email" placeholder="Enter Email" />
                                 <SubscribeButton>Subscribe</SubscribeButton>
                             </SubscribeFormWrap>
                         </FooterLinkItems>

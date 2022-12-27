@@ -23,10 +23,10 @@ const Terms = () => {
 <p>Unless otherwise stated, Starlatech and/or its licensors own the intellectual property rights for all material on starlatech.com. All intellectual property rights are reserved. You may access this from starlatech.com for your own personal use subjected to restrictions set in these terms and conditions.
 You must not:</p>
 <ul>
-  <li>Republish material from tujjari.com</li>
-  <li>Sell, rent or sub-license material from tujjari.com</li>
-  <li>Reproduce, duplicate or copy material from tujjari.com</li>
-  <li>Redistribute content from tujjari.com</li></ul>
+  <li>Republish material from www.starlatech.com</li>
+  <li>Sell, rent or sub-license material from www.starlatech.com</li>
+  <li>Reproduce, duplicate or copy material from www.starlatech.com</li>
+  <li>Redistribute content from www.starlatech.com</li></ul>
 <h3>Content Liability</h3>
 <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
 
