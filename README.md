@@ -1,3 +1,5 @@
+Developed this project in collaboration with <a href="https://github.com/Abbaszaid">@Abbaszaidi</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
