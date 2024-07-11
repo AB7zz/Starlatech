@@ -1,4 +1,4 @@
-Developed this project in collaboration with <a href="https://github.com/Abbaszaid">@Abbaszaidi</a>
+Developed this project in collaboration with <a href="https://github.com/Abbaszaid">@Abbaszaid</a>
 
 # Getting Started with Create React App
 
